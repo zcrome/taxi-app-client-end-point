@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		98B2E39E0C8A4050EFC1B8D5 /* Pods_taxi_app_client_end_point.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF45C8970608899FDD5CE97D /* Pods_taxi_app_client_end_point.framework */; };
 		D290C0041F92ACFF002BEEB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290C0031F92ACFF002BEEB6 /* AppDelegate.swift */; };
-		D290C0061F92ACFF002BEEB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290C0051F92ACFF002BEEB6 /* ViewController.swift */; };
-		D290C0091F92ACFF002BEEB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D290C0071F92ACFF002BEEB6 /* Main.storyboard */; };
 		D290C00B1F92ACFF002BEEB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D290C00A1F92ACFF002BEEB6 /* Assets.xcassets */; };
-		D290C00E1F92ACFF002BEEB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D290C00C1F92ACFF002BEEB6 /* LaunchScreen.storyboard */; };
+		D290C0181F92B07F002BEEB6 /* Launcher.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D290C0171F92B07F002BEEB6 /* Launcher.storyboard */; };
+		D290C01A1F92B0B5002BEEB6 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D290C0191F92B0B5002BEEB6 /* Login.storyboard */; };
+		D290C01F1F92B424002BEEB6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290C01E1F92B424002BEEB6 /* LoginViewController.swift */; };
+		D290C0231F92B6F4002BEEB6 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D290C0221F92B6F4002BEEB6 /* Register.storyboard */; };
+		D290C0261F92B709002BEEB6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290C0251F92B709002BEEB6 /* RegisterViewController.swift */; };
+		D290C0281F92B77C002BEEB6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D290C0271F92B77C002BEEB6 /* Home.storyboard */; };
+		D290C02C1F92BD9E002BEEB6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290C02B1F92BD9E002BEEB6 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,11 +24,15 @@
 		769FF5C22C010CC7F8B1AF6B /* Pods-taxi-app-client-end-point.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-taxi-app-client-end-point.release.xcconfig"; path = "Pods/Target Support Files/Pods-taxi-app-client-end-point/Pods-taxi-app-client-end-point.release.xcconfig"; sourceTree = "<group>"; };
 		D290C0001F92ACFF002BEEB6 /* taxi-app-client-end-point.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "taxi-app-client-end-point.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D290C0031F92ACFF002BEEB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D290C0051F92ACFF002BEEB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D290C0081F92ACFF002BEEB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D290C00A1F92ACFF002BEEB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D290C00D1F92ACFF002BEEB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D290C00F1F92ACFF002BEEB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D290C0171F92B07F002BEEB6 /* Launcher.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launcher.storyboard; sourceTree = "<group>"; };
+		D290C0191F92B0B5002BEEB6 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		D290C01E1F92B424002BEEB6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D290C0221F92B6F4002BEEB6 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		D290C0251F92B709002BEEB6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D290C0271F92B77C002BEEB6 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		D290C02B1F92BD9E002BEEB6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EF45C8970608899FDD5CE97D /* Pods_taxi_app_client_end_point.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taxi_app_client_end_point.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,14 +86,58 @@
 		D290C0021F92ACFF002BEEB6 /* taxi-app-client-end-point */ = {
 			isa = PBXGroup;
 			children = (
+				D290C0161F92B043002BEEB6 /* Storyboards */,
+				D290C0151F92B02A002BEEB6 /* Controllers */,
 				D290C0031F92ACFF002BEEB6 /* AppDelegate.swift */,
-				D290C0051F92ACFF002BEEB6 /* ViewController.swift */,
-				D290C0071F92ACFF002BEEB6 /* Main.storyboard */,
 				D290C00A1F92ACFF002BEEB6 /* Assets.xcassets */,
-				D290C00C1F92ACFF002BEEB6 /* LaunchScreen.storyboard */,
 				D290C00F1F92ACFF002BEEB6 /* Info.plist */,
 			);
 			path = "taxi-app-client-end-point";
+			sourceTree = "<group>";
+		};
+		D290C0151F92B02A002BEEB6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D290C0241F92B6F7002BEEB6 /* Register */,
+				D290C0211F92B497002BEEB6 /* Home */,
+				D290C0201F92B42B002BEEB6 /* Login */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D290C0161F92B043002BEEB6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D290C0171F92B07F002BEEB6 /* Launcher.storyboard */,
+				D290C0191F92B0B5002BEEB6 /* Login.storyboard */,
+				D290C0221F92B6F4002BEEB6 /* Register.storyboard */,
+				D290C0271F92B77C002BEEB6 /* Home.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D290C0201F92B42B002BEEB6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D290C01E1F92B424002BEEB6 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D290C0211F92B497002BEEB6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D290C02B1F92BD9E002BEEB6 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D290C0241F92B6F7002BEEB6 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				D290C0251F92B709002BEEB6 /* RegisterViewController.swift */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +202,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D290C00E1F92ACFF002BEEB6 /* LaunchScreen.storyboard in Resources */,
+				D290C01A1F92B0B5002BEEB6 /* Login.storyboard in Resources */,
+				D290C0281F92B77C002BEEB6 /* Home.storyboard in Resources */,
+				D290C0181F92B07F002BEEB6 /* Launcher.storyboard in Resources */,
 				D290C00B1F92ACFF002BEEB6 /* Assets.xcassets in Resources */,
-				D290C0091F92ACFF002BEEB6 /* Main.storyboard in Resources */,
+				D290C0231F92B6F4002BEEB6 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,31 +265,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D290C0061F92ACFF002BEEB6 /* ViewController.swift in Sources */,
+				D290C01F1F92B424002BEEB6 /* LoginViewController.swift in Sources */,
 				D290C0041F92ACFF002BEEB6 /* AppDelegate.swift in Sources */,
+				D290C0261F92B709002BEEB6 /* RegisterViewController.swift in Sources */,
+				D290C02C1F92BD9E002BEEB6 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D290C0071F92ACFF002BEEB6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D290C0081F92ACFF002BEEB6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D290C00C1F92ACFF002BEEB6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D290C00D1F92ACFF002BEEB6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D290C0101F92ACFF002BEEB6 /* Debug */ = {
@@ -353,6 +390,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ED5F6DV8X9;
 				INFOPLIST_FILE = "taxi-app-client-end-point/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zcrome.me.taxi-app-client-end-point";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,6 +407,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ED5F6DV8X9;
 				INFOPLIST_FILE = "taxi-app-client-end-point/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zcrome.me.taxi-app-client-end-point";
 				PRODUCT_NAME = "$(TARGET_NAME)";
