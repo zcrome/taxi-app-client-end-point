@@ -21,6 +21,9 @@ class LoginViewController: UIViewController {
   //**************************************
   //**** MARK: - Local constans and variables
   //**************************************
+  @IBOutlet weak var emailTextField: UITextField!
+  @IBOutlet weak var passwordTextField: UITextField!
+  
   
   //**************************************
   //**** MARK: - ViewController override definitions
@@ -45,6 +48,20 @@ class LoginViewController: UIViewController {
   //**************************************
   //**** MARK: - Actions and other outlets remaining
   //**************************************
+  
+  @IBAction func executeLogin(_ sender: UIButton) {
+    guard let email = emailTextField.text, let password = passwordTextField.text, !email.isEmpty, !password.isEmpty else{
+      print("show message")
+      return
+    }
+    Services.sharedInstance.executeClientLoginWith(Credentials: ["email": email, "password": password]) { isLoginSuccess in
+      if isLoginSuccess {
+        self.performSegue(withIdentifier: "toHome", sender: self)
+      }else{
+        print("WRONG")
+      }
+    }
+  }
   
   //**************************************
   //**** MARK: - Additional functions that may be require

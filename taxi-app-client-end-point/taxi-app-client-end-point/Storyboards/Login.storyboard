@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -24,7 +25,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GBr-oS-nDv">
                                         <rect key="frame" x="0.0" y="0.0" width="262.5" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocorrectionType="yes" spellCheckingType="no" keyboardType="emailAddress" keyboardAppearance="alert" returnKeyType="next" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" keyboardAppearance="alert" returnKeyType="next" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OgZ-8t-CpR">
                                         <rect key="frame" x="0.0" y="50" width="262.5" height="30"/>
@@ -35,14 +36,14 @@
                                         <rect key="frame" x="0.0" y="100" width="262.5" height="30"/>
                                         <state key="normal" title="Ingresar"/>
                                         <connections>
-                                            <segue destination="uZu-OD-dfY" kind="show" id="0yF-RO-imZ"/>
+                                            <action selector="executeLogin:" destination="YUJ-w5-0Dn" eventType="touchUpInside" id="cdO-0a-04H"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JnS-Ei-EY8">
                                         <rect key="frame" x="0.0" y="150" width="262.5" height="30"/>
                                         <state key="normal" title="Registrarme"/>
                                         <connections>
-                                            <segue destination="OrC-Px-1AF" kind="show" id="tdZ-ca-yE8"/>
+                                            <segue destination="OrC-Px-1AF" kind="show" id="3Ly-7c-vgS"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -64,6 +65,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JaY-s5-QSH"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="GBr-oS-nDv" id="Aci-Bk-0H2"/>
+                        <outlet property="passwordTextField" destination="OgZ-8t-CpR" id="IBp-7e-v9H"/>
+                        <segue destination="uZu-OD-dfY" kind="show" identifier="toHome" id="hfr-Hp-pNq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7q6-AV-Kfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

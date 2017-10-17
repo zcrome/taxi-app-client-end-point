@@ -17,6 +17,11 @@
 		D290C0261F92B709002BEEB6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290C0251F92B709002BEEB6 /* RegisterViewController.swift */; };
 		D290C0281F92B77C002BEEB6 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D290C0271F92B77C002BEEB6 /* Home.storyboard */; };
 		D290C02C1F92BD9E002BEEB6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290C02B1F92BD9E002BEEB6 /* HomeViewController.swift */; };
+		D2C938E41F9594A20016C003 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C938E31F9594A20016C003 /* Client.swift */; };
+		D2C938E51F9595600016C003 /* TypeOfUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C938E21F9594070016C003 /* TypeOfUser.swift */; };
+		D2C938E61F9595640016C003 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C938E01F9594070016C003 /* Session.swift */; };
+		D2C938E71F9595670016C003 /* Taxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C938E11F9594070016C003 /* Taxi.swift */; };
+		D2C938E81F95956E0016C003 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C938DE1F9594070016C003 /* Services.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 		D290C0251F92B709002BEEB6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		D290C0271F92B77C002BEEB6 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		D290C02B1F92BD9E002BEEB6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D2C938DE1F9594070016C003 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		D2C938E01F9594070016C003 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		D2C938E11F9594070016C003 /* Taxi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taxi.swift; sourceTree = "<group>"; };
+		D2C938E21F9594070016C003 /* TypeOfUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfUser.swift; sourceTree = "<group>"; };
+		D2C938E31F9594A20016C003 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		EF45C8970608899FDD5CE97D /* Pods_taxi_app_client_end_point.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taxi_app_client_end_point.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,6 +96,8 @@
 		D290C0021F92ACFF002BEEB6 /* taxi-app-client-end-point */ = {
 			isa = PBXGroup;
 			children = (
+				D2C938DF1F9594070016C003 /* Model */,
+				D2C938DD1F9594070016C003 /* Network */,
 				D290C0161F92B043002BEEB6 /* Storyboards */,
 				D290C0151F92B02A002BEEB6 /* Controllers */,
 				D290C0031F92ACFF002BEEB6 /* AppDelegate.swift */,
@@ -138,6 +150,25 @@
 				D290C0251F92B709002BEEB6 /* RegisterViewController.swift */,
 			);
 			path = Register;
+			sourceTree = "<group>";
+		};
+		D2C938DD1F9594070016C003 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D2C938DE1F9594070016C003 /* Services.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D2C938DF1F9594070016C003 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2C938E01F9594070016C003 /* Session.swift */,
+				D2C938E11F9594070016C003 /* Taxi.swift */,
+				D2C938E21F9594070016C003 /* TypeOfUser.swift */,
+				D2C938E31F9594A20016C003 /* Client.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +296,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C938E61F9595640016C003 /* Session.swift in Sources */,
 				D290C01F1F92B424002BEEB6 /* LoginViewController.swift in Sources */,
+				D2C938E51F9595600016C003 /* TypeOfUser.swift in Sources */,
+				D2C938E71F9595670016C003 /* Taxi.swift in Sources */,
 				D290C0041F92ACFF002BEEB6 /* AppDelegate.swift in Sources */,
 				D290C0261F92B709002BEEB6 /* RegisterViewController.swift in Sources */,
+				D2C938E41F9594A20016C003 /* Client.swift in Sources */,
+				D2C938E81F95956E0016C003 /* Services.swift in Sources */,
 				D290C02C1F92BD9E002BEEB6 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
